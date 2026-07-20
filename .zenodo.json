@@ -1,0 +1,30 @@
+{
+  "title": "fcp-keyg: The Final Cut Pro 1–7 binary project format — specification and extraction tools",
+  "upload_type": "software",
+  "description": "<p>The first public specification of Apple Final Cut Pro's legacy binary project format (.fcp, magic \"KeyG\", 1999–2011), produced by independent clean-room reverse engineering of project data files for interoperability and digital-preservation purposes, together with open-source extraction tools (timeline recovery, media reference extraction, export to FCP7 XML importable in modern editing software).</p><p>The specification is provided in English and French. It covers file identification (magic, header, constant format signature), both byte-order variants (PowerPC big-endian and Intel little-endian), the serialized property tree data model, the dynamic per-file property identifier system, persistent object reference resolution through the project item table, sequence/track/clip structures, and Mac OS Alias media references.</p><p>Code is licensed under MIT; documentation under CC BY-SA 4.0. This is independent documentation, not affiliated with Apple Inc.</p>",
+  "creators": [
+    {
+      "name": "Darley, Camille"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Final Cut Pro",
+    "file format",
+    "reverse engineering",
+    "digital preservation",
+    "video editing",
+    "binary format",
+    "format specification",
+    "audiovisual archives",
+    "FCP7",
+    "KeyG"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/camdarley/fcp-keyg",
+      "scheme": "url"
+    }
+  ]
+}
