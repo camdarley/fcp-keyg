@@ -1,5 +1,8 @@
 # fcp-keyg — The Final Cut Pro 1–7 binary project format, documented
 
+[![DOI](https://zenodo.org/badge/1306439995.svg)](https://zenodo.org/badge/latestdoi/1306439995)
+
+
 **The first public specification of Apple Final Cut Pro's legacy binary
 project format (`.fcp`, magic `KeyG`), with working extraction tools.**
 
@@ -66,6 +69,13 @@ Validated on a corpus of real-world projects from 2007–2013 (FCP 5 through 7,
 PAL). Known gaps: audio clip layout in little-endian files, track grouping in
 little-endian files, NTSC/drop-frame untested, FCP 1–3 (Mac OS 9) untested.
 Issue reports with sample files are very welcome.
+
+## Citing
+
+Archived releases with DOI on Zenodo — all versions:
+[doi:10.5281/zenodo.21454245](https://doi.org/10.5281/zenodo.21454245)
+(this release: [doi:10.5281/zenodo.21454246](https://doi.org/10.5281/zenodo.21454246)).
+See also `CITATION.cff`.
 
 ## Licensing
 
